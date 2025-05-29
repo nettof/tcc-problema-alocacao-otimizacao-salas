@@ -182,18 +182,45 @@ def solve_model():
     status = solver.Solve()
     if status == pywraplp.Solver.OPTIMAL:
         print("Solução ótima encontrada:\n")
+
+        print("Atribuições professor -> turma:")
         for (p, t), var in x_pt.items():
             if var.solution_value() == 1:
-                print(f"Professor {p} atribuído à turma {t}")
+                print(f"  Professor {p} atribuído à turma {t}")
+
+        print("\nDias de aula por professor:")
         for (p, i), var in z_pi.items():
             if var.solution_value() == 1:
-                print(f"Professor {p} trabalha no dia {i}")
-        for p in a_p:
-            print(f"a_p[{p}] = {a_p[p].solution_value()}")
-        for p in b_p:
-            print(f"b_p[{p}] = {b_p[p].solution_value()}")
+                print(f"  Professor {p} trabalha no dia {i}")
+
+        print("\nPenalidades:")
+        for p in P:
+            print(f"  a_p[{p}] = {a_p[p].solution_value()} | b_p[{p}] = {b_p[p].solution_value()}")
+
+        print("\nAlocações de salas por turma:")
+        for t in T:
+            for i in D:
+                for j in H:
+                    for k in S:
+                        if y_T_tijk[(t, i, j, k)].solution_value() == 1:
+                            print(f"  Turma {t} (Teórica): Sala {k}, Dia {i}, Horário {j}")
+                        if y_P_tijk[(t, i, j, k)].solution_value() == 1:
+                            print(f"  Turma {t} (Prática): Sala {k}, Dia {i}, Horário {j}")
+
+        print("\nOcupação das salas por slot:")
+        for k in S:
+            for i in D:
+                for j in H:
+                    turmas = [
+                        t for t in T
+                        if y_tijk[(t, i, j, k)].solution_value() == 1
+                    ]
+                    if turmas:
+                        print(f"  Sala {k} -> Dia {i}, Horário {j}: Turma {turmas}")        
+
     else:
         print("Nenhuma solução viável encontrada.")
+
         
 # ===============================
 # Execução principal
