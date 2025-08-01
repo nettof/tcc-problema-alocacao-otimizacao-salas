@@ -1,0 +1,54 @@
+LP Solver <Glop 9.12>: barrier convergence tolerance cannot be set -- tolerance of SCIP and LP solver may differ
+LP Solver <Glop 9.12>: fastmip setting not available -- SCIP parameter has no effect
+LP Solver <Glop 9.12>: row representation of the basis not available -- SCIP parameter lp/rowrepswitch has no effect
+LP Solver <Glop 9.12>: solution polishing not available -- SCIP parameter lp/solutionpolishing has no effect
+LP Solver <Glop 9.12>: refactorization interval not available -- SCIP parameter lp/refactorinterval has no effect
+LP Solver <Glop 9.12>: markowitz threshhold not available -- SCIP parameter lp/minmarkowitz has no effect
+transformed problem has 934370 variables (917664 bin, 16706 int, 0 impl, 0 cont) and 3669623 constraints
+3669623 constraints of type <linear>
+
+original problem has 8313220 active (0.000242454%) nonzeros and 8313220 (0.000242454%) check nonzeros
+
+presolving:
+(round 1, fast)       213547 del vars, 1526122 del conss, 34 add conss, 226629 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 1470039 clqs
+(round 2, exhaustive) 213600 del vars, 1526221 del conss, 34 add conss, 226629 chg bounds, 232 chg sides, 238 chg coeffs, 2143320 upgd conss, 0 impls, 1470039 clqs
+(round 3, exhaustive) 213600 del vars, 3548221 del conss, 674034 add conss, 226629 chg bounds, 232 chg sides, 238 chg coeffs, 2143320 upgd conss, 0 impls, 1470039 clqs
+   (45.0s) probing: 100/720770 (0.0%) - 0 fixings, 0 aggregations, 2125400 implications, 0 bound changes
+   (66.0s) probing: 200/720770 (0.0%) - 0 fixings, 0 aggregations, 4065400 implications, 0 bound changes
+   (87.0s) probing: 300/720770 (0.0%) - 0 fixings, 0 aggregations, 6005400 implications, 0 bound changes
+   (107.0s) probing: 400/720770 (0.1%) - 0 fixings, 0 aggregations, 7809800 implications, 0 bound changes
+   (127.0s) probing: 500/720770 (0.1%) - 0 fixings, 0 aggregations, 9549800 implications, 0 bound changes
+   (146.0s) probing: 600/720770 (0.1%) - 0 fixings, 0 aggregations, 11289800 implications, 0 bound changes
+   (167.0s) probing: 700/720770 (0.1%) - 0 fixings, 0 aggregations, 12875000 implications, 0 bound changes
+   (186.0s) probing: 800/720770 (0.1%) - 0 fixings, 0 aggregations, 14255000 implications, 0 bound changes
+   (206.0s) probing: 900/720770 (0.1%) - 0 fixings, 0 aggregations, 15635000 implications, 0 bound changes
+   (225.0s) probing: 1000/720770 (0.1%) - 0 fixings, 0 aggregations, 17015000 implications, 0 bound changes
+   (225.0s) probing: 1001/720770 (0.1%) - 0 fixings, 0 aggregations, 17028800 implications, 0 bound changes
+   (225.0s) probing aborted: 1000/1000 successive useless probings
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+clique table cleanup detected 0 bound changes
+
+presolved problem has 2343685 active (0.000408787%) nonzeros and 2343340 (0.000408727%) check nonzeros
+
+presolving (4 rounds: 4 fast, 3 medium, 3 exhaustive):
+ 213600 deleted vars, 3548221 deleted constraints, 674034 added constraints, 226629 tightened bounds, 0 added holes, 232 changed sides, 238 changed coefficients
+ 0 implications, 8271451 cliques
+presolved problem has 720770 variables (720770 bin, 0 int, 0 impl, 0 cont) and 795436 constraints
+ 121305 constraints of type <setppc>
+ 674000 constraints of type <and>
+    116 constraints of type <linear>
+     15 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 221.00
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+ 2823s|     1 |     0 | 27653 |     - |  8609M |   0 | 720k| 795k|1469k|   0 |  0 |  37 |   0 |    cutoff    |      --      |   0.00%| unknown
+ 2823s|     1 |     0 | 27653 |     - |  8609M |   0 | 720k| 795k|1469k|   0 |  0 |  37 |   0 |    cutoff    |      --      |   0.00%| unknown
+
+SCIP Status        : problem is solved [infeasible]
+Solving Time (sec) : 2823.00
+Solving Nodes      : 1
+Primal Bound       : +1.00000000000000e+20 (0 solutions)
+Dual Bound         : +1.00000000000000e+20
+Gap                : 0.00 %

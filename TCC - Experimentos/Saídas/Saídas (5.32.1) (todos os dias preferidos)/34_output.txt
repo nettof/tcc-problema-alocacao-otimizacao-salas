@@ -1,0 +1,5 @@
+Nenhuma solução viável
+Status numérico: 2
+Tempo de resolução: 6850.357 segundos
+Número de iterações: 23900
+

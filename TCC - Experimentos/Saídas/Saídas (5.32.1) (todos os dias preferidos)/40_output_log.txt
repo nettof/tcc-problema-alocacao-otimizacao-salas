@@ -1,0 +1,51 @@
+LP Solver <Glop 9.12>: barrier convergence tolerance cannot be set -- tolerance of SCIP and LP solver may differ
+LP Solver <Glop 9.12>: fastmip setting not available -- SCIP parameter has no effect
+LP Solver <Glop 9.12>: row representation of the basis not available -- SCIP parameter lp/rowrepswitch has no effect
+LP Solver <Glop 9.12>: solution polishing not available -- SCIP parameter lp/solutionpolishing has no effect
+LP Solver <Glop 9.12>: refactorization interval not available -- SCIP parameter lp/refactorinterval has no effect
+LP Solver <Glop 9.12>: markowitz threshhold not available -- SCIP parameter lp/minmarkowitz has no effect
+transformed problem has 2335015 variables (2308445 bin, 26570 int, 0 impl, 0 cont) and 9637511 constraints
+9637511 constraints of type <linear>
+
+original problem has 21681698 active (9.63471e-05%) nonzeros and 21681698 (9.63471e-05%) check nonzeros
+
+presolving:
+(round 1, fast)       544163 del vars, 3965996 del conss, 25 add conss, 564853 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 3959647 clqs
+(round 2, exhaustive) 544248 del vars, 3966126 del conss, 25 add conss, 564853 chg bounds, 455 chg sides, 300 chg coeffs, 5671224 upgd conss, 0 impls, 3959647 clqs
+(round 3, exhaustive) 544248 del vars, 9106326 del conss, 1713425 add conss, 564853 chg bounds, 455 chg sides, 300 chg coeffs, 5671224 upgd conss, 0 impls, 3959647 clqs
+   (186.0s) probing: 100/1790767 (0.0%) - 0 fixings, 0 aggregations, 3583800 implications, 0 bound changes
+   (258.0s) probing: 200/1790767 (0.0%) - 0 fixings, 0 aggregations, 7203800 implications, 0 bound changes
+   (331.0s) probing: 300/1790767 (0.0%) - 0 fixings, 0 aggregations, 10329800 implications, 0 bound changes
+   (403.0s) probing: 400/1790767 (0.0%) - 0 fixings, 0 aggregations, 13429800 implications, 0 bound changes
+   (476.0s) probing: 500/1790767 (0.0%) - 0 fixings, 0 aggregations, 16529800 implications, 0 bound changes
+   (547.0s) probing: 600/1790767 (0.0%) - 0 fixings, 0 aggregations, 19629800 implications, 0 bound changes
+   (618.0s) probing: 700/1790767 (0.0%) - 0 fixings, 0 aggregations, 22729800 implications, 0 bound changes
+   (687.0s) probing: 800/1790767 (0.0%) - 0 fixings, 0 aggregations, 25829800 implications, 0 bound changes
+   (758.0s) probing: 900/1790767 (0.1%) - 0 fixings, 0 aggregations, 28955400 implications, 0 bound changes
+   (827.0s) probing: 1000/1790767 (0.1%) - 0 fixings, 0 aggregations, 31751400 implications, 0 bound changes
+   (828.0s) probing: 1001/1790767 (0.1%) - 0 fixings, 0 aggregations, 31779200 implications, 0 bound changes
+   (828.0s) probing aborted: 1000/1000 successive useless probings
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+   Deactivated symmetry handling methods, since SCIP was built without symmetry detector (SYM=none).
+clique table cleanup detected 0 bound changes
+
+presolved problem has 6334684 active (0.000157596%) nonzeros and 6333734 (0.000157572%) check nonzeros
+
+presolving (4 rounds: 4 fast, 3 medium, 3 exhaustive):
+ 544248 deleted vars, 9106326 deleted constraints, 1713425 added constraints, 564853 tightened bounds, 0 added holes, 455 changed sides, 300 changed coefficients
+ 0 implications, 21588715 cliques
+presolved problem has 1790767 variables (1790767 bin, 0 int, 0 impl, 0 cont) and 2244610 constraints
+ 530999 constraints of type <setppc>
+1713400 constraints of type <and>
+    186 constraints of type <linear>
+     25 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 795.00
+
+
+SCIP Status        : solving was interrupted [time limit reached]
+Solving Time (sec) : 7214.00
+Solving Nodes      : 1
+Primal Bound       : +1.00000000000000e+20 (0 solutions)
+Dual Bound         : +0.00000000000000e+00
+Gap                : infinite

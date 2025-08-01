@@ -1,0 +1,5 @@
+Modelo não resolvido
+Status numérico: 6
+Tempo de resolução: 7323.809 segundos
+Número de iterações: 0
+
