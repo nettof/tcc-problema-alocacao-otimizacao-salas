@@ -1,0 +1,172 @@
+Solução ótima encontrada
+Status numérico: 0
+Tempo de resolução: 16.402 segundos
+Número de iterações: 6544
+
+==== Solução ====
+
+Função objetivo (valor) = 0.0
+
+Atribuições professor -> turma:
+  Professor 10 atribuído à turma 1
+  Professor 20 atribuído à turma 2
+  Professor 30 atribuído à turma 3
+  Professor 40 atribuído à turma 4
+  Professor 50 atribuído à turma 5
+  Professor 60 atribuído à turma 6
+  Professor 60 atribuído à turma 7
+  Professor 70 atribuído à turma 8
+  Professor 70 atribuído à turma 9
+  Professor 80 atribuído à turma 10
+  Professor 80 atribuído à turma 11
+  Professor 90 atribuído à turma 12
+  Professor 90 atribuído à turma 13
+  Professor 100 atribuído à turma 14
+  Professor 100 atribuído à turma 15
+  Professor 110 atribuído à turma 16
+  Professor 110 atribuído à turma 17
+  Professor 120 atribuído à turma 18
+  Professor 120 atribuído à turma 19
+  Professor 130 atribuído à turma 20
+  Professor 130 atribuído à turma 21
+
+Dias de aula por professor:
+  Professor 10 trabalha no dia 1
+  Professor 10 trabalha no dia 2
+  Professor 10 trabalha no dia 3
+  Professor 10 trabalha no dia 4
+  Professor 10 trabalha no dia 5
+  Professor 20 trabalha no dia 1
+  Professor 20 trabalha no dia 2
+  Professor 20 trabalha no dia 3
+  Professor 20 trabalha no dia 4
+  Professor 20 trabalha no dia 5
+  Professor 30 trabalha no dia 1
+  Professor 30 trabalha no dia 2
+  Professor 30 trabalha no dia 3
+  Professor 30 trabalha no dia 4
+  Professor 30 trabalha no dia 5
+  Professor 40 trabalha no dia 1
+  Professor 40 trabalha no dia 2
+  Professor 40 trabalha no dia 3
+  Professor 40 trabalha no dia 4
+  Professor 40 trabalha no dia 5
+  Professor 50 trabalha no dia 1
+  Professor 50 trabalha no dia 2
+  Professor 50 trabalha no dia 3
+  Professor 50 trabalha no dia 4
+  Professor 50 trabalha no dia 5
+  Professor 60 trabalha no dia 1
+  Professor 60 trabalha no dia 2
+  Professor 60 trabalha no dia 3
+  Professor 60 trabalha no dia 4
+  Professor 60 trabalha no dia 5
+  Professor 70 trabalha no dia 1
+  Professor 70 trabalha no dia 2
+  Professor 70 trabalha no dia 3
+  Professor 70 trabalha no dia 4
+  Professor 70 trabalha no dia 5
+  Professor 80 trabalha no dia 1
+  Professor 80 trabalha no dia 2
+  Professor 80 trabalha no dia 3
+  Professor 80 trabalha no dia 4
+  Professor 80 trabalha no dia 5
+  Professor 90 trabalha no dia 1
+  Professor 90 trabalha no dia 2
+  Professor 90 trabalha no dia 3
+  Professor 90 trabalha no dia 4
+  Professor 90 trabalha no dia 5
+  Professor 100 trabalha no dia 1
+  Professor 100 trabalha no dia 2
+  Professor 100 trabalha no dia 3
+  Professor 100 trabalha no dia 4
+  Professor 100 trabalha no dia 5
+  Professor 110 trabalha no dia 1
+  Professor 110 trabalha no dia 2
+  Professor 110 trabalha no dia 3
+  Professor 110 trabalha no dia 4
+  Professor 110 trabalha no dia 5
+  Professor 120 trabalha no dia 1
+  Professor 120 trabalha no dia 2
+  Professor 120 trabalha no dia 3
+  Professor 120 trabalha no dia 4
+  Professor 120 trabalha no dia 5
+  Professor 130 trabalha no dia 1
+  Professor 130 trabalha no dia 2
+  Professor 130 trabalha no dia 3
+  Professor 130 trabalha no dia 4
+  Professor 130 trabalha no dia 5
+
+Penalidades:
+  a_p[10] = 0.0 | b_p[10] = 0.0
+  a_p[20] = 0.0 | b_p[20] = 0.0
+  a_p[30] = 0.0 | b_p[30] = 0.0
+  a_p[40] = 0.0 | b_p[40] = 0.0
+  a_p[50] = 0.0 | b_p[50] = 0.0
+  a_p[60] = 0.0 | b_p[60] = 0.0
+  a_p[70] = 0.0 | b_p[70] = 0.0
+  a_p[80] = 0.0 | b_p[80] = 0.0
+  a_p[90] = 0.0 | b_p[90] = 0.0
+  a_p[100] = 0.0 | b_p[100] = 0.0
+  a_p[110] = 0.0 | b_p[110] = 0.0
+  a_p[120] = 0.0 | b_p[120] = 0.0
+  a_p[130] = 0.0 | b_p[130] = 0.0
+
+Cronograma de alocação (Dia -> Horário -> Sala -> Turma):
+  Dia 1 -> Horário 1315 -> Sala 2 -> Turma 21 (teórica)
+  Dia 1 -> Horário 1315 -> Sala 3 -> Turma 9 (prática)
+  Dia 1 -> Horário 1315 -> Sala 4 -> Turma 6 (teórica)
+  Dia 1 -> Horário 1315 -> Sala 5 -> Turma 15 (prática)
+  Dia 1 -> Horário 1315 -> Sala 7 -> Turma 7 (teórica)
+  Dia 1 -> Horário 1315 -> Sala 8 -> Turma 17 (prática)
+  Dia 1 -> Horário 1315 -> Sala 10 -> Turma 17 (prática)
+  Dia 1 -> Horário 1517 -> Sala 1 -> Turma 16 (prática)
+  Dia 1 -> Horário 1517 -> Sala 2 -> Turma 20 (teórica)
+  Dia 1 -> Horário 1517 -> Sala 4 -> Turma 15 (teórica)
+  Dia 1 -> Horário 1517 -> Sala 7 -> Turma 13 (prática)
+  Dia 1 -> Horário 171930 -> Sala 1 -> Turma 7 (prática)
+  Dia 1 -> Horário 171930 -> Sala 2 -> Turma 8 (teórica)
+  Dia 1 -> Horário 171930 -> Sala 3 -> Turma 16 (teórica)
+  Dia 1 -> Horário 171930 -> Sala 5 -> Turma 15 (teórica)
+  Dia 1 -> Horário 171930 -> Sala 6 -> Turma 9 (prática)
+  Dia 1 -> Horário 171930 -> Sala 7 -> Turma 12 (prática)
+  Dia 1 -> Horário 171930 -> Sala 8 -> Turma 9 (teórica)
+  Dia 1 -> Horário 171930 -> Sala 9 -> Turma 9 (teórica)
+  Dia 1 -> Horário 171930 -> Sala 10 -> Turma 13 (teórica)
+  Dia 1 -> Horário 192130 -> Sala 1 -> Turma 13 (prática)
+  Dia 1 -> Horário 192130 -> Sala 2 -> Turma 10 (prática)
+  Dia 1 -> Horário 192130 -> Sala 8 -> Turma 5 (teórica)
+  Dia 1 -> Horário 192130 -> Sala 9 -> Turma 19 (prática)
+  Dia 2 -> Horário 1315 -> Sala 1 -> Turma 19 (prática)
+  Dia 2 -> Horário 1315 -> Sala 2 -> Turma 21 (prática)
+  Dia 2 -> Horário 1517 -> Sala 8 -> Turma 14 (prática)
+  Dia 2 -> Horário 1517 -> Sala 9 -> Turma 14 (teórica)
+  Dia 2 -> Horário 192130 -> Sala 2 -> Turma 7 (teórica)
+  Dia 2 -> Horário 192130 -> Sala 3 -> Turma 3 (teórica)
+  Dia 2 -> Horário 192130 -> Sala 6 -> Turma 3 (prática)
+  Dia 3 -> Horário 1315 -> Sala 4 -> Turma 1 (teórica)
+  Dia 3 -> Horário 1315 -> Sala 5 -> Turma 4 (prática)
+  Dia 3 -> Horário 1315 -> Sala 6 -> Turma 11 (prática)
+  Dia 3 -> Horário 1315 -> Sala 7 -> Turma 12 (teórica)
+  Dia 3 -> Horário 1517 -> Sala 4 -> Turma 11 (teórica)
+  Dia 3 -> Horário 171930 -> Sala 9 -> Turma 11 (teórica)
+  Dia 3 -> Horário 171930 -> Sala 10 -> Turma 11 (prática)
+  Dia 3 -> Horário 192130 -> Sala 4 -> Turma 19 (teórica)
+  Dia 4 -> Horário 1315 -> Sala 5 -> Turma 13 (teórica)
+  Dia 4 -> Horário 1517 -> Sala 1 -> Turma 21 (teórica)
+  Dia 4 -> Horário 1517 -> Sala 7 -> Turma 18 (teórica)
+  Dia 4 -> Horário 171930 -> Sala 6 -> Turma 2 (teórica)
+  Dia 4 -> Horário 171930 -> Sala 7 -> Turma 7 (prática)
+  Dia 4 -> Horário 171930 -> Sala 8 -> Turma 20 (prática)
+  Dia 4 -> Horário 171930 -> Sala 9 -> Turma 21 (prática)
+  Dia 4 -> Horário 192130 -> Sala 2 -> Turma 20 (teórica)
+  Dia 4 -> Horário 192130 -> Sala 3 -> Turma 17 (teórica)
+  Dia 4 -> Horário 192130 -> Sala 10 -> Turma 19 (teórica)
+  Dia 5 -> Horário 1517 -> Sala 2 -> Turma 15 (prática)
+  Dia 5 -> Horário 1517 -> Sala 3 -> Turma 4 (teórica)
+  Dia 5 -> Horário 1517 -> Sala 5 -> Turma 17 (teórica)
+  Dia 5 -> Horário 1517 -> Sala 7 -> Turma 18 (prática)
+  Dia 5 -> Horário 1517 -> Sala 9 -> Turma 10 (teórica)
+  Dia 5 -> Horário 192130 -> Sala 9 -> Turma 5 (prática)
+
+Número total de inconsistências: 11
